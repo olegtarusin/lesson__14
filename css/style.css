@@ -1,0 +1,173 @@
+[class*="__container"] {
+    max-width: 1250px;
+    background-color: rgba(125, 122, 122, 0.449);
+    margin: 0px auto;
+}
+
+[class*="__title"] {
+    font-family: Zero, decorative;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.header__title {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation__button {
+    flex: 1 0 33.33333%;
+    padding: 10px;
+
+}
+
+.navigation__button button {
+    background-color: yellow;
+    width: 100%;
+    border: 3px double #000;
+    border-radius: 5px;
+    height: 100%;
+}
+
+.testbox__title {
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.testbox {
+    display: flex;
+    min-height: 300px;
+    border: 1px solid yellow;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.testbox__column {
+    background: #fff;
+    flex: 0 1 45%;
+
+}
+
+.testbox__column:nth-child(even) {
+    align-self: flex-end;
+}
+
+.testbox__row {
+    background-color: #00000078;
+}
+
+.test__page {
+    padding: 50px;
+}
+
+.test__page img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    float: left;
+    margin: 20px;
+}
+
+.cardbox {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 50px;
+    justify-content: space-between;
+
+}
+
+
+
+.card {
+    display: flex;
+    flex-shrink: 1;
+    flex-basis: 48%;
+    border: 1px solid #000;
+    background-color: aliceblue;
+    box-shadow: 0px 5px 5px 0px #00000067;
+}
+
+
+.card__image {
+    padding: 10px;
+    background: linear-gradient(45deg, #00000078, #fff);
+    align-self: center;
+    margin-left: 10px;
+}
+
+.card__image img {
+    max-width: 200px;
+}
+
+.card__info {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.card__title {
+    text-align: center;
+}
+
+.card__text {
+    flex-grow: 1;
+}
+
+.card__link {
+    background-color: yellow;
+}
+
+.chatbox {
+    margin: 100px;
+}
+
+.chatbox__title {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.chat-coment {
+    border: 3px solid yellow;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+.post {
+    background-color: #fff;
+    display: flex;
+    width: 70%;
+}
+
+.post:nth-child(odd) {
+    align-self: flex-end;
+    flex-direction: row-reverse;
+}
+
+.post:nth-child(odd) .post__title {
+    text-align: right;
+}
+
+.post__image img {
+    width: 100px;
+}
+
+.post__title {
+    font-family: serif;
+    font-weight: 700;
+}
+
+.footer__container {
+    border-top: 1px solid #fff;
+    padding: 50px;
+    background-color: #00000078;
+    text-align: center;
+}
